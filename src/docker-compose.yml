@@ -1,0 +1,6 @@
+services:
+  api_dotnet:
+    build: .
+    version: 0.1
+    ports:
+      - "5001:5001"

@@ -1,3 +1,5 @@
 .gitignore
 global.json
 start.sh
+docker-compose.yml
+Dockerfile
