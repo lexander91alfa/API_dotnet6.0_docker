@@ -1,6 +1,8 @@
 services:
   api_dotnet:
     build: .
-    version: 0.1
+    image: aspnetapp:0.0.1
+    restart: always
     ports:
       - "5001:5001"
+      - "5000:5000"
