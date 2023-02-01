@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{9A476EB1-B22A-429B-93EB-A279A6372558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alfa.Filmes.Api", "app\Alfa.Filmes.Api\Alfa.Filmes.Api.csproj", "{66DFB69B-4F7E-4FEF-A36C-B83046DD248C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66DFB69B-4F7E-4FEF-A36C-B83046DD248C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DFB69B-4F7E-4FEF-A36C-B83046DD248C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DFB69B-4F7E-4FEF-A36C-B83046DD248C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DFB69B-4F7E-4FEF-A36C-B83046DD248C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66DFB69B-4F7E-4FEF-A36C-B83046DD248C} = {9A476EB1-B22A-429B-93EB-A279A6372558}
+	EndGlobalSection
+EndGlobal
