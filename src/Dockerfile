@@ -7,7 +7,7 @@ COPY . ./
 
 RUN dotnet restore 
 
-RUN dotnet publish -c Release -o /out --no-restore
+RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine
 WORKDIR /App
@@ -21,7 +21,7 @@ EXPOSE 5001 5000
 RUN apk add --no-cache tzdata
 ENV TZ America/Sao_Paulo
 
-COPY --from=build /out ./
+COPY --from=build /src/out .
 
 RUN date
 
